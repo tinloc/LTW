@@ -1,0 +1,10 @@
+# Không đẩy file config chứa thông tin nhạy cảm thật
+config/db.php
+
+# Ảnh upload (mỗi máy tự có, không cần share qua git)
+uploads/posts/*
+!uploads/posts/.gitkeep
+
+# File hệ thống
+.DS_Store
+Thumbs.db`  `
